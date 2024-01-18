@@ -1,0 +1,30 @@
+body{
+    margin: 20px;
+    font-family: 'Arial', Verdana, Tahoma , sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px dotted #264653;
+    border-bottom: 5px solid #2a9d8f;
+    border-radius: 5px;
+    box-shadow: 5px 5px #264653;
+    background: #f4a261;
+}
+.main:hover{
+    /* color: #fff; */
+    box-shadow: inset 200px 0 0 0 #54b3d6;;
+}
+.flx-img img{
+    width: 200px;
+    height: 100%;
+    border: 1px dotted #cadcf0;
+}
+.flx-det{
+    text-align: center;
+}
